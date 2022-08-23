@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS users; 
+CREATE TABLE users(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(20) 
+);
+INSERT INTO users VALUES (1, 'Вася');
+INSERT INTO users VALUES (2, 'Петя');
+SELECT * FROM users;
